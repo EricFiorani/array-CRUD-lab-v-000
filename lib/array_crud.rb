@@ -23,7 +23,7 @@ end
 
 def remove_element_from_start_of_array(array)
   array = ["wow", "a", "b", "c", "d", "arrays!"]
-  array.pop(0)
+  array.delete_at(0)
 end
 
 def retrieve_element_from_index(array, index_number)
